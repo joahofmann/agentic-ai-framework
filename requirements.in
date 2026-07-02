@@ -1,0 +1,11 @@
+torch
+langchain
+langchain-core
+langchain-ollama
+langchain-huggingface
+langchain-chroma
+chromadb
+sentence-transformers
+transformers
+ipykernel
+ipywidgets

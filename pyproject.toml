@@ -1,0 +1,27 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "agentic-ai-framework"
+version = "0.1.0"
+description = "A local Agentic AI framework using Kubeflow, Ollama, LangChain, Chroma, and PyTorch GPU acceleration."
+readme = "README.md"
+requires-python = ">=3.11"
+license = { text = "MIT" }
+
+dependencies = [
+    "torch",
+    "langchain",
+    "langchain-core",
+    "langchain-ollama",
+    "langchain-huggingface",
+    "langchain-chroma",
+    "chromadb",
+    "sentence-transformers",
+    "transformers",
+]
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["agentic*"]
