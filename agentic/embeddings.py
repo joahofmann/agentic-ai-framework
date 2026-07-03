@@ -1,6 +1,6 @@
 from langchain_huggingface import HuggingFaceEmbeddings
-from device import get_device
-from config import EMBEDDING_MODEL
+from .device import get_device
+from .config import EMBEDDING_MODEL
 
 # ============================================================
 # 2. CREATE EMBEDDINGS

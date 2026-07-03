@@ -1,5 +1,5 @@
 from langchain_core.prompts import ChatPromptTemplate
-from config import TOP_K
+from .config import TOP_K
 
 # ============================================================
 # 5. RUN RAG QUESTION ANSWERING

@@ -1,8 +1,8 @@
-from device import print_device_info
-from embeddings import create_embeddings
-from vectorstore import create_vectorstore
-from llm import create_llm
-from rag import ask_rag
+from .device import print_device_info
+from .embeddings import create_embeddings
+from .vectorstore import create_vectorstore
+from .llm import create_llm
+from .rag import ask_rag
 
 # ============================================================
 # COMPLETE DEMO AGENT

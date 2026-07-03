@@ -1,5 +1,5 @@
 from langchain_ollama import ChatOllama
-from config import OLLAMA_BASE_URL, LLM_MODEL, TEMPERATURE
+from .config import OLLAMA_BASE_URL, LLM_MODEL, TEMPERATURE
 
 # ============================================================
 # 4. CONNECT TO OLLAMA
